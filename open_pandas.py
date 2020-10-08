@@ -1,5 +1,5 @@
 import pandas as pd
 
 auto=pd.read_csv('a_data.csv')
-print(auto)
+print(auto.head(10))
 
